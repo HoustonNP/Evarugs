@@ -54,7 +54,7 @@
 	&__inst-img {
 		margin: 0 15px 0 0;
 	}
-	&__inst-text {
+	&__inst-text a {
 		font-weight: 500;
 		font-size: 15px;
 		color: #ffffff;
@@ -82,5 +82,10 @@
 	}
 	.header-item:last-child {
 		display: none;
+	}
+}
+@media (max-width: 426px) {
+	.header {
+		padding: 10px;
 	}
 }

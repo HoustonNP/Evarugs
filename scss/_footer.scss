@@ -1,5 +1,5 @@
 .footer {
-	background: url(../img/footer/bg-1.png) 5% 80px no-repeat, url(../img/footer/bg-2.png) 88% 20px no-repeat;
+	background: url(../img/footer/bg_1.png) 5% 80px no-repeat, url(../img/footer/bg_2.png) 88% 20px no-repeat;
 	padding: 160px 0 50px;
 
 	&__content {
@@ -35,7 +35,7 @@
 }
 @media (max-width: 992px) {
 	.footer {
-		background: url(../img/footer/bg-3.png) 5% 80px no-repeat, url(../img/footer/bg-4.png) 88% 20px no-repeat;
+		background: url(../img/footer/bg_1_t.png) 5% 80px no-repeat, url(../img/footer/bg_2_t.png) 88% 20px no-repeat;
 		padding: 50px 0 30px;
 	}
 }
