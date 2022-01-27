@@ -1,0 +1,125 @@
+.main {
+	background: url(../img/main/bg-1.jpg) center 50px no-repeat, url(../img/main/bg-2.jpg) 0 98% no-repeat;
+
+	&__content {
+		padding: 50px 0 220px;
+	}
+	&__header {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__header-logo {
+		font-style: italic;
+		font-weight: 900;
+		font-size: 36px;
+		line-height: 150%;
+		text-transform: uppercase;
+	}
+	&__header-nav {
+		margin: 0 0 15px 15px;
+	}
+	&__header-nav-list {
+	}
+	&__header-nav-item {
+		display: inline-block;
+	}
+	&__header-nav-item:not(:last-child) {
+		margin: 0 25px 0 0;
+	}
+	&__header-nav-link {
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 150%;
+		color: #737373;
+	}
+	&__order {
+		display: flex;
+		align-items: center;
+	}
+	&__order-text {
+	}
+	&__order-text-title {
+		font-weight: 900;
+		font-size: 50px;
+		line-height: 120%;
+		margin-bottom: 15px;
+	}
+	&__order-text-subtitle {
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 120%;
+		margin-bottom: 25px;
+	}
+	&__order-text-button {
+		font-weight: 900;
+		font-size: 20px;
+		text-align: center;
+		color: #ffffff;
+	}
+	&__order-img {
+	}
+	&__bottom {
+	}
+	&__bottom-title {
+		font-size: 50px;
+		font-weight: normal;
+		line-height: 59px;
+		text-align: center;
+		margin: 0 0 100px;
+	}
+	&__bottom-title span {
+		text-transform: uppercase;
+		background: linear-gradient(180deg, #b90160 0%, #3d5bf5 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	&__bottom-cards {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+.button {
+	position: relative;
+	display: inline-block;
+	background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+	border-radius: 7px;
+	padding: 15px 44px;
+	transition: 0.2s;
+}
+.button:hover {
+	background: linear-gradient(95.2deg, #2e3192 2.23%, #b90160 99.51%);
+	box-shadow: 7px 7px 10px #cc9ae4;
+	transition: 0.3s;
+}
+
+.card {
+	border-radius: 10px;
+	box-shadow: 3px 3px 20px rgb(201, 198, 198);
+	overflow: hidden;
+	max-width: 344px;
+	margin: 0 15px;
+	background: #fff;
+
+	&__img img {
+		width: 100%;
+	}
+	&__text {
+		margin: 22px;
+	}
+	&__text-title {
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 42px;
+		text-transform: uppercase;
+		margin: 0 0 14px;
+	}
+	&__text-subtitle {
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 16px;
+		color: #767676;
+	}
+	&__text-subtitle p:not(:last-child) {
+		margin-bottom: 15px;
+	}
+}
