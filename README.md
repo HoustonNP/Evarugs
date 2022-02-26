@@ -1,5 +1,5 @@
 # https://houstonnp.github.io/Evarugs/
-### Учебный проэкт
+### Учебный проект
 ### Технологии:
 - HTML
 - CSS
